@@ -1,0 +1,20 @@
+package assignment1;
+
+public class Staff implements User {
+    private String name;
+    private String id;
+
+    public void setDetails(String name, String id) {
+        this.name = name;
+        this.id = id;
+    }
+
+    public String getID() {
+        return this.id;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+}
+
